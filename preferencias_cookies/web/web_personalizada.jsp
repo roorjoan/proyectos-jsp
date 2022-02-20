@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
 
-    <body>
+    <body class="<%=tema%>">
         <section class="photo-gallery <%=tema%>" style="height: 100vh">
             <div class="container">
                 <div class="intro">
