@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" style="box-shadow: 0px 0px var(--bs-danger);">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>preferencias_cookies</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+        <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <div class="container" style="text-align: center;">
+            <form action="./guardar_cookies.jsp" method="get">
+                <select name="tema" style="margin-top: 50px;">
+                    <option value="bg-light" selected="">Modo Claro</option>
+                    <option value="bg-dark">Modo Oscuro</option>
+                    <option value="bg-warning">Modo Naranja</option>
+                </select>
+                <h1 style="margin-bottom: 0;margin-top: 10px;margin-right: 0;text-align: center;color: var(--bs-danger);">Configuración del tema</h1>
+                <button class="btn btn-danger" type="submit" style="margin-top: 20px;">Enviar</button>
+            </form>
+        </div>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

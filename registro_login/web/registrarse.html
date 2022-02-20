@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>registrar</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+        <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body style="background: rgb(241,247,252);">
+        <section class="register-photo" style="padding-top: 25px;padding-bottom: 0px;color: rgb(241,247,252);">
+            <div class="form-container">
+                <div class="image-holder"></div>
+                <form method="post" action="procesar.jsp">
+                    <h2 class="text-center"><strong>Create</strong>&nbsp;una cuenta.</h2>
+                    <div class="mb-3"><input class="form-control" type="text" name="nombre" placeholder="Nombre" required=""></div>
+                    <div class="mb-3"><input class="form-control" type="text" name="apellidos" placeholder="Apellidos"></div>
+                    <div class="mb-3"><input class="form-control" type="text" name="usuario" placeholder="Usuario" required=""></div>
+                    <div class="mb-3"><input class="form-control" type="password" name="contrasenia" placeholder="Contraseña" required=""></div>
+                    <div class="mb-3">
+                        <select class="form-select" name="provincia">
+                            <option value="CMG">CMG</option>
+                            <option value="LTU">LTU</option>
+                            <option value="HOL">HOL</option>
+                            <option value="GRM" selected="">GRM</option>
+                            <option value="SCU">SCU</option>
+                            <option value="GTM">GTM</option>
+                        </select></div>
+                    <div class="mb-3">
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="formCheck-1" name="tecnologias" value="Java"><label class="form-check-label" for="formCheck-1">Java</label></div>
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="formCheck-2" name="tecnologias" value="PHP"><label class="form-check-label" for="formCheck-2">PHP</label></div>
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="formCheck-3" name="tecnologias" value="JavaScript"><label class="form-check-label" for="formCheck-3">JavaScript</label></div>
+                    </div>
+                    <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit">Registrarse</button></div>
+                    <a class="already" href="login.html">Ya tienes una cuenta? ENTRA AQUI.</a>
+                </form>
+            </div>
+        </section>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
